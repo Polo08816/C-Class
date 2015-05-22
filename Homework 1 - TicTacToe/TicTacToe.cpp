@@ -13,8 +13,10 @@ using namespace std;
 int main()
 {
 
-	cout << "Welcome to the Tic Tac Toe Game" << endl;
 	char player;
+
+	cout << "Welcome to the Tic Tac Toe Game" << endl;
+
 
 }
 

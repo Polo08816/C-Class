@@ -17,13 +17,15 @@ public:
 	TicTacToe();
 	~TicTacToe();
 
-	void drawBoard(const int &row, const int &col) const;
+	void drawBoard() const;
 	bool isValidMove();
 	void recordMOve();
 	int isWinner();
 	int isDraw();
 
 private:
+
+	char ticTacToeBoard [9];
 
 };
 

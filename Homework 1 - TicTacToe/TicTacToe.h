@@ -2,7 +2,7 @@
  * TicTacToe.h
  *
  *  Created on: May 20, 2015
- *      Author: J14688
+ *      Author: Kevin Kuo
  */
 
 #ifndef TICTACTOE_H_
@@ -25,7 +25,7 @@ public:
 
 private:
 
-	char ticTacToeBoard [9];
+	char ticTacToeBoard [][];
 
 };
 
